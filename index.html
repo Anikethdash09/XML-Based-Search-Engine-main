@@ -1,0 +1,55 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Building Efficient Search Engine For XML Files</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2, label {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        }
+        
+        .search-type {
+        display: inline-flex;
+        align-items: center;
+        }
+        
+        .search-type label {
+        margin-right: 10px;
+        }
+        
+        .search-terms-label {
+        display: block;
+        font-weight: bold;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Building Efficient Search Engine For XML Files</h1>
+        <form id="search-form">
+        <h2>Select Search Type:</h2>
+        <div class="search-type">
+            <input type="radio" id="search-type-and" name="search-type" value="AND" checked>
+            <label for="search-type-and">AND</label>
+        </div>
+        <div class="search-type">
+            <input type="radio" id="search-type-or" name="search-type" value="OR">
+            <label for="search-type-or">OR</label>
+        </div>
+        <h1></h1>
+        <label class="search-terms-label" for="search-terms">Enter Search Terms:</label>
+        <h2></h2>
+        <div class="search-box">
+            <form action=""></form>
+                <input type="text" id="search-terms" name="search-terms" placeholder="Enter Your Search" required>
+                <div class="search-center"><button type="submit" id="search-submit">Search</button></div>
+                
+            </form>
+        </div>
+        
+        <div id="search-response"></div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+    </html>
