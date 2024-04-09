@@ -12,4 +12,4 @@ Changes:
 - Separate Parameter to whether they want to have specific search_type in the output, resulting more flexibility to query results.
 
 
-~ Developed by Abhisek Panda
+~ Developed by Aniketh Dash
